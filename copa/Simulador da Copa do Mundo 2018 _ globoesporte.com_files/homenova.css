@@ -1,0 +1,200 @@
+a{
+  color: #3b9c00;
+}
+
+.materia-titulo a:hover {
+  opacity: .8;
+}
+
+.ge-card-classificacao .geui-menu-regua .lista-alfabetica a.link-active{
+	color: #fff !important;
+}
+
+.widget-section-destaques.automatico .destaque-lateral-item {
+  border-bottom: 1px solid #e8e8e8;
+  overflow: hidden;
+  padding-bottom: 30px;
+  width: 540px;
+}
+.widget-section-destaques.automatico .destaque-lateral-item .geui-contador-social {
+  margin-left: 25px;
+  margin-top: 18px;
+}
+.widget-section-destaques.automatico .destaque-lateral-item .destaque-lateral-texto {
+  letter-spacing: -1px;
+  margin-left: 25px;
+  margin-top: 0;
+  width: 360px;
+}
+.widget-section-destaques.automatico .destaque-lateral-item .foto {
+  float: left;
+  display: inline-block;
+}
+.widget-section-destaques.automatico .destaque-lateral-item.sem-foto .chapeu {
+  margin-left: 0;
+}
+.widget-section-destaques.automatico .destaque-lateral-item.sem-foto .geui-contador-social {
+  margin-left: 0;
+}
+.widget-section-destaques.automatico .destaque-lateral-item.sem-foto .destaque-lateral-texto {
+  margin-left: 0;
+  width: 100%;
+}
+.widget-section-destaques.automatico .destaque-lateral-titulo {
+  font-size: 35px;
+  text-transform: none;
+  font-weight: lighter;
+}
+.widget-section-destaques.automatico .destaque-lateral-texto {
+  font-size: 21px;
+  display: inline-block;
+  font-weight: bold;
+}
+.widget-section-destaques.automatico .horario {
+  margin-left: 181px;
+  display: block;
+  margin-top: 12px;
+  font-family: 'Open sans';
+  font-weight: 400;
+  color: #999;
+}
+
+
+/* Mosaico com altura variavel */
+#header-produto .widget-mosaico-header {
+  height: auto;
+}
+
+
+/* PALCO */
+.palco-body #header-produto #busca-padrao {
+	float: none;
+}
+
+.glb-palco-cor-primaria,
+.glb-palco-cor-primaria-link,
+.glb-palco-cor-primaria-link:visited {
+	color: #3b9c00;
+}
+
+.glb-palco-cor-primaria-fundo {
+	background-color: #3b9c00;
+}
+
+.no-touch .glb-palco-cor-primaria-link:hover {
+	color: #48c30b;
+}
+
+.glb-interatividade-input:focus {
+	border-color: #3b9c00;
+}
+
+.glb-palco-cor-borda-highlight {
+	border-color: #3b9c00;
+}
+
+#glb-rodape {
+	background-color: #379100;
+}
+
+.glb-feed-wrapper .glb-feed-main .glb-feed-updates {
+	background-color: #399c27;
+	border-bottom: 1px solid #379100;
+	color: #fff;
+}
+
+.glb-feed-wrapper .glb-feed-main .glb-feed-updates span {
+	color: #399c27;
+}
+
+.glb-feed-wrapper .glb-feed-main .glb-feed-updates:hover {
+	background-color: #379100;
+}
+
+.glb-feed-wrapper .glb-feed-main .glb-feed-updates:hover span {
+	color: #379100;
+}
+
+@media tv {
+    /* VOTACAO MULTIMIDIA */
+    .interatividade-all .label.glb-palco-cor-primaria, /* Cor do texto e porcentagem da opÃ§Ã£o escolhida */
+    .interatividade-all .votacao-opcoes ul, /* Cor do texto das opÃ§Ãµes e porcentagens */
+    .interatividade-all .glb-interatividade-pergunta, /* Cor do texto da pergunta */
+    .interatividade-all .glb-interatividade-chapeu { /* Cor do texto do chapÃ©u */
+        color: #ffffff;
+    }
+
+    .interatividade-all {
+        background: transparent;
+    }
+
+    /* Texto em destaque no chapÃ©u. Ex: "EM ANDAMENTO"  */
+    .interatividade-all .glb-palco-cor-primaria {
+        color: #ffa200;
+    }
+
+    /* Cor do fundo da barra de progresso */
+    .interatividade-all .glb-interatividade-barra-resultado-fundo {
+        background-color: rgba(#000, 0.3);
+    }
+
+    /* Cor da barra de progresso preenchida */
+    .interatividade-all .glb-palco-cor-primaria-fundo,
+    .interatividade-all .glb-interatividade-barra-resultado {
+        background-color: #ffa200;
+    }
+
+    /* COMUM */
+
+    /* Imagem de fundo */
+    .iframe-interatividade-container {
+        background-color: #ededed;
+        background-image: url(tv-background.jpg);
+    }
+
+    /* Cor do link para a interatividade na TV caso tenha */
+    .interatividade-all .glb-interatividade-link {
+        color: #FFA200;
+    }
+
+    /* APOSTA */
+
+    /* Cor padrÃ£o do texto chapÃ©u*/
+    .interatividade-all .pergunta-chapeu {
+        color: #ffffff;
+    }
+
+    /* Cor da aposta selecionada */
+    .interatividade-all .correta .resposta-conteudo {
+        background-color: #ffa200;
+        border-color: #ffa200;
+    }
+
+    /* Cor do tÃ­tulo da aposta */
+    .interatividade-all .pergunta-titulo {
+        color: #ffffff;
+    }
+
+    /* Cor de destaque do chapÃ©u */
+    .interatividade-all .glb-palco-cor-primaria {
+        color: #ffa200;
+    }
+
+    #container-aposta #respostas-itens .com-imagem .titulo {
+        height: 0px !important;
+    }
+
+    /* REMOCAO DE COMPARTILHAMENTO E SOCIAL */
+    .glb-interatividade-fechar,
+    .glb-social-footer,
+    #feedback-inline,
+    #share-container {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+	.glb-palco-checkin.glb-palco-box-dot .glb-palco-box-dot-container {
+		overflow: hidden;
+	}
+}
